@@ -42,7 +42,7 @@ public class 음료수얼려먹기_5 {
             }
     	}
         
-        
+  
     }
 
     public static void main(String[] args) throws Exception {
