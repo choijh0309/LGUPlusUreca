@@ -36,10 +36,10 @@ public class BJ_DFS와BFS프로그램문제_1260 {
             A[E].add(S);
         }
         
-//        // 방문할 수 있는 노드가 여러 개면 작은 것부터 방문 위해 정렬
-//        for (int i = 1; i <= N; i++) {
-//            Collections.sort(A[i]);
-//        }
+        // 방문할 수 있는 노드가 여러 개면 작은 것부터 방문 위해 정렬
+        for (int i = 1; i <= N; i++) {
+            Collections.sort(A[i]);
+        }
         
         visited = new boolean[N + 1];
         DFS(V);
