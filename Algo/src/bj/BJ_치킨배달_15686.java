@@ -75,12 +75,12 @@ public class BJ_치킨배달_15686 {
 		comb(srcIdx + 1, tgtIdx + 1);
 		// 비선택
 		tgt.remove(src.get(srcIdx));
-		comb(srcIdx + 1, tgtIdx);
+		comb(srcIdx + 1, tgtIdx);	
 	}
 }
 
 /*
-5 3
+5 					
 0 0 1 0 0
 0 0 2 0 1
 0 1 2 0 0
