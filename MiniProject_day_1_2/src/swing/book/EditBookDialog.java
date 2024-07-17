@@ -32,7 +32,7 @@ public class EditBookDialog extends JDialog {
 		priceField = new JTextField(price);
 		
 		// button
-		saveButton = new JButton("Add");
+		saveButton = new JButton("Save");
 		
 		// add field with label, button
 		add(new JLabel("Book ID"));
